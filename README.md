@@ -12,7 +12,7 @@
 - Colors: Colors and patterns for any div
 
 ## Prerequisites
-To run Restbot, you will need the following:
+To use architect.css, you will need the following:
 - bootstrap 3.3.7
 
 ## Installation
