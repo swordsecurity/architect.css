@@ -456,14 +456,6 @@ img,form,input,.control{ max-width: 100%; }
     text-align: center!important;
 }
 
-.right {
-    float: right!important;
-}
-
-.left {
-    float: left!important;
-}
-
 .round {
     border-radius: 30em;
 }
@@ -556,13 +548,4 @@ img,form,input,.control{ max-width: 100%; }
     background: rgba(0, 0, 0, 0.5);
     color: white;
     height: 100%;
-}
-
-@media(max-width:600px) {
-    .right, .left {
-        float: none!important;
-    }
-    .brandlogo {
-        text-align: center;
-    }
 }

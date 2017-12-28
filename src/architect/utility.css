@@ -10,14 +10,6 @@
     text-align: center!important;
 }
 
-.right {
-    float: right!important;
-}
-
-.left {
-    float: left!important;
-}
-
 .round {
     -webkit-border-radius: 30em;
     -moz-border-radius: 30em;
@@ -112,13 +104,4 @@
     background: rgba(0, 0, 0, 0.5);
     color: white;
     height: 100%;
-}
-
-@media(max-width:600px) {
-    .right, .left {
-        float: none!important;
-    }
-    .brandlogo {
-        text-align: center;
-    }
 }
