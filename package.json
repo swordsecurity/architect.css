@@ -1,0 +1,30 @@
+{
+  "name": "hbs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "glob": "^7.1.2",
+    "hbs": "~4.0.1",
+    "mocha": "^3.4.2",
+    "morgan": "~1.8.1",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.0.3",
+    "strip-css-comments": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "nodemon": "^1.11.0"
+  }
+}

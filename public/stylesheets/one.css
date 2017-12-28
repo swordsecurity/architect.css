@@ -1,0 +1,608 @@
+/* Copyright 2017 Maarten Schermer, Licensed under MIT */ .fade {
+    opacity: 0;
+}
+
+.fade.left, .fade.right {
+    float: none!important;
+}
+
+.fade.top {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+    animation: fadeInVert .5s ease-out forwards;
+    -webkit-animation: fadeInVert .5s ease-out forwards
+}
+
+.fade.bottom {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+    animation: fadeInVert .5s ease-out forwards;
+    -webkit-animation: fadeInVert .5s ease-out forwards
+}
+
+@-webkit-keyframes fadeInVert {
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0)
+    }
+}
+
+@keyframes fadeInVert {
+    to {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0)
+    }
+}
+
+.fade.left {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+    animation: fadeInHoriz .5s ease-out forwards;
+    -webkit-animation: fadeInHoriz .5s ease-out forwards
+}
+
+.fade.right {
+    -webkit-transform: translateX(6px);
+            transform: translateX(6px);
+    animation: fadeInHoriz .5s ease-out forwards;
+    -webkit-animation: fadeInHoriz .5s ease-out forwards
+}
+
+@-webkit-keyframes fadeInHoriz {
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0)
+    }
+}
+
+@keyframes fadeInHoriz {
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0)
+    }
+}
+
+.fade.delay5 {
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s
+}
+
+.fade.delay10 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s
+}
+
+.fade.delay15 {
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s
+}
+
+.fade.delay20 {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s
+}
+
+.fade.delay25 {
+    animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s
+}
+
+.fade.delay30 {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s
+}
+
+.fade.delay35 {
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s
+}
+
+.fade.delay40 {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s
+}
+
+.fade.delay45 {
+    animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s
+}
+
+.fade.delay50 {
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s
+}
+
+.spinner {
+    display: inline-block;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1600ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1600ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1600ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 1600ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+.card.small {
+    padding: 12px 24px;
+}
+
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    padding: 24px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1), 0 2px 10px 0 rgba(0, 0, 0, .07);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1), 0 2px 10px 0 rgba(0, 0, 0, .07);
+    border-radius: 4px;
+    display: block;
+}
+
+.card.big {
+    padding: 48px;
+}
+
+.card.box {
+    padding: 0;
+    padding-bottom: 24px;
+}
+
+.card.small.box {
+    padding-bottom: 12px;
+}
+
+.card.big.box {
+    padding-bottom: 48px;
+}
+
+.card.box .content {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card.big.box .content {
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.card.small.box .content {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+body {
+    color: #444;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #444;
+    -webkit-transition: color 0.8s;
+    transition: color 0.8s;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #0092FF;
+}
+
+a {
+    color: #0078D1;
+}
+
+a:hover {
+    color: #0092FF;
+}
+
+.whitetxt, .whitetxt.menu ul li a {
+    color: white;
+}
+
+.blacktxt, .blacktxt.menu ul li a {
+    color: black;
+}
+
+.greytxt, .greytxt.menu ul li a {
+    color: grey;
+}
+
+.lgreytxt, .lgreytxt.menu ul li a {
+    color: #dbdbdb;
+}
+
+.menu.transparent {
+    background: transparent;
+    color: inherit;
+}
+
+.black, table tr td.black, .menu.black {
+    background: black;
+    color: white;
+}
+
+.red, table tr td.red, .menu.red {
+    background: #CF2222;
+    color: white;
+}
+
+.orange, table tr td.orange, .menu.orange {
+    background: #CF6522;
+    color: white;
+}
+
+.yellow, table tr td.yellow, .menu.yellow {
+    background: #CFC122;
+    color: white;
+}
+
+.lime, table tr td.lime, .menu.lime {
+    background: #82CF22;
+    color: white;
+}
+
+.green, table tr td.green, .menu.green {
+    background: #22CF61;
+    color: white;
+}
+
+.cyan, table tr td.cyan, .menu.cyan {
+    background: #22C9CF;
+    color: white;
+}
+
+.blue, table tr td.blue, .menu.blue {
+    background: #2277CF;
+    color: white;
+}
+
+.indigo, table tr td.indigo, .menu.indigo {
+    background: #5722CF;
+    color: white;
+}
+
+.purple, table tr td.purple, .menu.purple {
+    background: #A022CF;
+    color: white;
+}
+
+.pink, table tr td.pink, .menu.pink {
+    background: #CF22AE;
+    color: white;
+}
+
+.darkred, table tr td.darkred, .menu.darkred {
+    background: #811b1b;
+    color: white;
+}
+
+.darkyellow, table tr td.darkyellow, .menu.darkyellow {
+    background: #938a23;
+    color: white;
+}
+
+.darkgreen, table tr td.darkgreen, .menu.darkgreen {
+    background: #1D9226;
+    color: white;
+}
+
+.darkblue, table tr td.darkblue, .menu.darkblue {
+    background: #1c5e8d;
+    color: white;
+}
+
+.darkpurple, table tr td.darkpurple, .menu.darkpurple {
+    background: #5b1e8c;
+    color: white;
+}
+
+.grey, table tr td.grey, .menu.grey {
+    background: #F9F9F9;
+}
+
+.dark, table tr td.dark, .menu.dark {
+    background: #424242;
+    color: white;
+}
+
+.white, table tr td.white, .menu.white {
+    background: white;
+    color: #444;
+}
+
+.menu.black li a, .menu.red li a, .menu.orange li a, .menu.yellow li a, .menu.lime li a, .menu.green li a, .menu.cyan li a, .menu.blue li a, .menu.indigo li a, .menu.purple li a, .menu.pink li a, .menu.darkred li a, .menu.darkyellow li a, .menu.darkgreen li a, .menu.darkblue li a, .menu.darkpurple li a, .menu.dark li a, .menu.blue li a, .menu.blue li a {
+    color: white;
+}
+
+.dots {
+    background: radial-gradient(white 4%, transparent 0%) 0 0, radial-gradient(white 0%, transparent 0%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 0%, transparent 0%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 0%) 8px 9px;
+    background-color: transparent;
+    background-size: 16px 16px;
+    height: 100%;
+}
+
+.blueprint {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.06) 2px, transparent 2px), linear-gradient(90deg, rgba(255, 255, 255, 0.06) 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    height: 100%;
+}
+
+.lines {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent 79px, rgba(171, 206, 212, 0.08) 79px, rgba(171, 206, 212, 0.13) 81px, transparent 81px), linear-gradient(rgba(238, 238, 238, 0.1) .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    height: 100%;
+}
+
+
+
+.html {
+    padding: 16px;
+}
+
+.html.big {
+    padding: 32px;
+}
+
+.html.bigger {
+    padding: 48px;
+}
+
+.html.huge {
+    padding: 64px;
+}
+
+.html.small {
+    padding: 8px;
+}
+
+.html.smaller {
+    padding: 4px;
+}
+
+.html.smallest {
+    padding: 2px;
+}
+
+
+
+.margin {
+    margin: 16px;
+}
+
+.margin.big {
+    margin: 32px;
+}
+
+.margin.bigger {
+    margin: 48px;
+}
+
+.margin.huge {
+    margin: 64px;
+}
+
+.margin.small {
+    margin: 8px;
+}
+
+.margin.smaller {
+    margin: 4px;
+}
+
+.margin.smallest {
+    margin: 2px;
+}
+
+img,form,input,.control{ max-width: 100%; }
+
+.clear {
+    clear: both;
+}
+
+.hide, .hidden {
+    display: none!important;
+}
+
+.center {
+    text-align: center!important;
+}
+
+.right {
+    float: right!important;
+}
+
+.left {
+    float: left!important;
+}
+
+.round {
+    border-radius: 30em;
+}
+
+.rel {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.no-tpadding {
+    padding-top: 0!important;
+}
+
+.no-bpadding {
+    padding-bottom: 0!important;
+}
+
+.no-lpadding {
+    padding-left: 0!important;
+}
+
+.no-rpadding {
+    padding-right: 0!important;
+}
+
+.no-hpadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.no-vpadding {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.no-tmargin {
+    margin-top: 0!important;
+}
+
+.no-bmargin {
+    margin-bottom: 0!important;
+}
+
+.no-lmargin {
+    margin-left: 0!important;
+}
+
+.no-rmargin {
+    margin-right: 0!important;
+}
+
+.no-hmargin {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.no-vmargin {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.fly, .ftop, .fbottom, .fleft, .fright {
+    z-index: 2;
+}
+
+.atop, .abottom, .aleft, .aright, .acenter {
+    z-index: 1;
+}
+
+.fly, .fixed {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fly.fixed {
+    position: fixed;
+}
+
+.ftop, .atop {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.fbottom, .abottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fleft, .aleft, .acenter {
+    left: 0;
+}
+
+.fright, .aright, .acenter {
+    right: 0;
+}
+
+.acenter {
+    top: 50%;
+}
+
+.ftop, .fbottom, .fleft, .fright {
+    position: fixed;
+}
+
+.fly, .atop, .abottom, .aleft, .aright, .acenter {
+    position: absolute;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 30em;
+    background: #727272;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.fullheight {
+    position: relative;
+    height: 768px;
+    height: 100vh;
+}
+
+.overlay {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+}
+
+@media(max-width:600px) {
+    .right, .left {
+        float: none!important;
+    }
+    .brandlogo {
+        text-align: center;
+    }
+}

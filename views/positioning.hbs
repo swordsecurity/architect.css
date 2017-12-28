@@ -1,0 +1,283 @@
+<style>
+    .progresslist {
+        padding-left: 0;
+    }
+
+    .progresslist li {
+        list-style: none;
+    }
+
+    .wrap .col {
+        box-shadow: 4px 0 0px -2px #6ae795;
+        -moz-box-shadow: 4px 0 0px -2px #6ae795;
+        -webkit-box-shadow: 4px 0 0px -2px #6ae795;
+        z-index: 1;
+        margin-bottom: 16px;
+    }
+
+    .wrap .grid {
+        border-bottom: 1px solid #2F87E1;
+        margin-bottom: 16px;
+    }
+
+    .wrap .grid .margin,
+    .wrap .col .margin {
+        border: none;
+    }
+
+    .wrap .html,
+    .wrap .margin {
+        border-bottom: 1px solid #3e82d3;
+    }
+
+
+    code {
+        border: none!important;
+    }
+</style>
+
+<div id="thecontent" class="">
+
+    <h1 class="bold">Positioning</h1>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h2 id="html" class="bold">Html</h2>
+            <p>Use <b>.html</b> to create a padding element.</p>
+
+            <ul class="progresslist">
+                <li>.html (16px)
+                    <br />
+
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:25%;"></div>
+                    </div>
+                </li>
+                <li>.html<b>.huge</b>(64px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:100%;"></div>
+                    </div>
+                </li>
+
+                <li>.html<b>.bigger</b>(48px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%;"></div>
+                    </div>
+                </li>
+
+                <li>.html<b>.big</b>(32px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:50%;"></div>
+                    </div>
+                </li>
+
+                <li>.html<b>.small</b>(8px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:12.50%;"></div>
+                    </div>
+                </li>
+
+                <li>.html<b>.smaller</b>(4px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:6.25%;"></div>
+                    </div>
+                </li>
+
+                <li>.html<b>.smallest</b>(2px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:3.125%;"></div>
+                    </div>
+                </li>
+
+
+            </ul>
+            <hr />
+            <h3>Examples</h3>
+
+            <div class="wrap">
+                <div class="docsource">
+                    <div class="html">
+                        Sample content
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="docsource">
+                    <div class="html huge">
+                        Sample huge padding with content
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-6">
+
+            <h2 id="margin" class="bold">Margin</h2>
+            <p>Use <b>.margin</b> to create a margin element.</p>
+
+            <ul class="progresslist">
+                <li>.margin (16px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:25%;"></div>
+                    </div>
+                </li>
+                <li>.margin<b>.huge</b>(64px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:100%;"></div>
+                    </div>
+                </li>
+
+                <li>.margin<b>.bigger</b>(48px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%;"></div>
+                    </div>
+                </li>
+
+                <li>.margin<b>.big</b>(32px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:50%;"></div>
+                    </div>
+                </li>
+
+                <li>.margin<b>.small</b>(8px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:12.50%;"></div>
+                    </div>
+                </li>
+
+                <li>.margin<b>.smaller</b>(4px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:6.25%;"></div>
+                    </div>
+                </li>
+
+                <li>.margin<b>.smallest</b>(2px)
+                    <br />
+                    <div class="progress">
+                        <div class="progress-bar" style="width:3.125%;"></div>
+                    </div>
+                </li>
+
+
+            </ul>
+            <hr />
+            <h3>Examples</h3>
+            <div class="wrap">
+                <div class="docsource">
+                    <div class="margin">
+                        Sample content
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrap">
+                <div class="docsource">
+                    <div class="margin huge">
+                        Sample huge margin with content
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<h3>Utility classes</h3>
+
+<div class="row">
+    <div class="col-md-6">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">class</th>
+      <th scope="col">usage</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>no-tpadding</td>
+        <td>No top padding</td>
+      </tr>
+      <tr>
+        <td>no-bpadding</td>
+        <td>No bottom padding</td>
+      </tr>
+      <tr>
+        <td>no-lpadding</td>
+        <td>No left padding</td>
+      </tr>
+      <tr>
+        <td>no-rpadding</td>
+        <td>No right padding</td>
+      </tr>
+      <tr>
+        <td>no-hpadding</td>
+        <td>No horizontal padding</td>
+      </tr>
+      <tr>
+        <td>no-vpadding</td>
+        <td>No vertical padding</td>
+      </tr>
+
+
+  </tbody>
+</table>
+</div>
+<div class="col-md-6">
+<table class="table">
+<thead>
+<tr>
+  <th scope="col">class</th>
+  <th scope="col">usage</th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+    <td>no-tmargin</td>
+    <td>No top margin</td>
+  </tr>
+  <tr>
+    <td>no-bmargin</td>
+    <td>No bottom margin</td>
+  </tr>
+  <tr>
+    <td>no-lmargin</td>
+    <td>No left margin</td>
+  </tr>
+  <tr>
+    <td>no-rmargin</td>
+    <td>No right margin</td>
+  </tr>
+  <tr>
+    <td>no-hmargin</td>
+    <td>No horizontal margin</td>
+  </tr>
+  <tr>
+    <td>no-vmargin</td>
+    <td>No vertical margin</td>
+  </tr>
+
+
+</tbody>
+</table>
+</div>
+</div>

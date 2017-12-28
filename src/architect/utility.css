@@ -1,0 +1,124 @@
+.clear {
+    clear: both;
+}
+
+.hide, .hidden {
+    display: none!important;
+}
+
+.center {
+    text-align: center!important;
+}
+
+.right {
+    float: right!important;
+}
+
+.left {
+    float: left!important;
+}
+
+.round {
+    -webkit-border-radius: 30em;
+    -moz-border-radius: 30em;
+    border-radius: 30em;
+}
+
+.rel {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+.fly, .ftop, .fbottom, .fleft, .fright {
+    z-index: 2;
+}
+
+.atop, .abottom, .aleft, .aright, .acenter {
+    z-index: 1;
+}
+
+.fly, .fixed {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fly.fixed {
+    position: fixed;
+}
+
+.ftop, .atop {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.fbottom, .abottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.fleft, .aleft, .acenter {
+    left: 0;
+}
+
+.fright, .aright, .acenter {
+    right: 0;
+}
+
+.acenter {
+    top: 50%;
+}
+
+.ftop, .fbottom, .fleft, .fright {
+    position: fixed;
+}
+
+.fly, .atop, .abottom, .aleft, .aright, .acenter {
+    position: absolute;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 30em;
+    background: #727272;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.fullheight {
+    position: relative;
+    height: 768px;
+    height: 100vh;
+}
+
+.overlay {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100%;
+}
+
+@media(max-width:600px) {
+    .right, .left {
+        float: none!important;
+    }
+    .brandlogo {
+        text-align: center;
+    }
+}

@@ -1,0 +1,113 @@
+/** PADDING */
+
+.html {
+    padding: 16px;
+}
+
+.html.big {
+    padding: 32px;
+}
+
+.html.bigger {
+    padding: 48px;
+}
+
+.html.huge {
+    padding: 64px;
+}
+
+.html.small {
+    padding: 8px;
+}
+
+.html.smaller {
+    padding: 4px;
+}
+
+.html.smallest {
+    padding: 2px;
+}
+
+/** MARGIN */
+
+.margin {
+    margin: 16px;
+}
+
+.margin.big {
+    margin: 32px;
+}
+
+.margin.bigger {
+    margin: 48px;
+}
+
+.margin.huge {
+    margin: 64px;
+}
+
+.margin.small {
+    margin: 8px;
+}
+
+.margin.smaller {
+    margin: 4px;
+}
+
+.margin.smallest {
+    margin: 2px;
+}
+
+/** Utility */
+
+.no-tpadding {
+    padding-top: 0!important;
+}
+
+.no-bpadding {
+    padding-bottom: 0!important;
+}
+
+.no-lpadding {
+    padding-left: 0!important;
+}
+
+.no-rpadding {
+    padding-right: 0!important;
+}
+
+.no-hpadding {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.no-vpadding {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.no-tmargin {
+    margin-top: 0!important;
+}
+
+.no-bmargin {
+    margin-bottom: 0!important;
+}
+
+.no-lmargin {
+    margin-left: 0!important;
+}
+
+.no-rmargin {
+    margin-right: 0!important;
+}
+
+.no-hmargin {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.no-vmargin {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}

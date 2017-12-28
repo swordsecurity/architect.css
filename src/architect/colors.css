@@ -1,0 +1,119 @@
+.black {
+    background: black;
+    color: white;
+}
+
+.red {
+    background: #CF2222;
+    color: white;
+}
+
+.orange {
+    background: #CF6522;
+    color: white;
+}
+
+.yellow{
+    background: #CFC122;
+    color: white;
+}
+
+.lime {
+    background: #82CF22;
+    color: white;
+}
+
+.green {
+    background: #22CF61;
+    color: white;
+}
+
+.cyan {
+    background: #22C9CF;
+    color: white;
+}
+
+.blue {
+    background: #2277CF;
+    color: white;
+}
+
+.indigo {
+    background: #5722CF;
+    color: white;
+}
+
+.purple {
+    background: #A022CF;
+    color: white;
+}
+
+.pink {
+    background: #CF22AE;
+    color: white;
+}
+
+.darkred {
+    background: #811b1b;
+    color: white;
+}
+
+.darkyellow {
+    background: #938a23;
+    color: white;
+}
+
+.darkgreen {
+    background: #1D9226;
+    color: white;
+}
+
+.darkblue {
+    background: #1c5e8d;
+    color: white;
+}
+
+.darkpurple {
+    background: #5b1e8c;
+    color: white;
+}
+
+.grey {
+    background: #F9F9F9;
+}
+
+.dark {
+    background: #424242;
+    color: white;
+}
+
+.white {
+    background: white;
+    color: #444;
+}
+
+.black a, .red a, .orange a, .yellow a, .lime a, .green a, .cyan a, .blue a, .indigo a, .purple a, .pink a, .darkred a, .darkyellow a, .darkgreen a, .darkblue a, .darkpurple a, .dark a, .blue a, .blue a {
+    color: white;
+}
+
+.dots {
+    background: radial-gradient(white 4%, transparent 0%) 0 0, radial-gradient(white 0%, transparent 0%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 0%, transparent 0%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 0%) 8px 9px;
+    background-color: transparent;
+    background-size: 16px 16px;
+    height: 100%;
+}
+
+.blueprint {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.06) 2px, transparent 2px), linear-gradient(90deg, rgba(255, 255, 255, 0.06) 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    height: 100%;
+}
+
+.lines {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, transparent 79px, rgba(171, 206, 212, 0.08) 79px, rgba(171, 206, 212, 0.13) 81px, transparent 81px), linear-gradient(rgba(238, 238, 238, 0.1) .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    height: 100%;
+}
